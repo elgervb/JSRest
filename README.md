@@ -33,13 +33,13 @@ Request Types
 
 The Rest library supplies a number of default requests:
 
-- GET     : Rest.get     Get (a list of) resources
-- POST    : Rest.post    Add a new resource
-- PUT     : Rest.put     Change a resource
-- PATCH   : Rest.patch   Change a part of a resource
-- DELETE  : Rest.delete  Delete a resource
-- OPTIONS : Rest.options Request the capablities of the requested url
-- HEAD    : Rest.head    Check is the resource exists
+- GET     : `Rest.get`    Get (a list of) resources
+- POST    : `Rest.post`    Add a new resource
+- PUT     : `Rest.put`     Change a resource
+- PATCH   : `Rest.patch`   Change a part of a resource
+- DELETE  : `Rest.delete`  Delete a resource
+- OPTIONS : `Rest.options` Request the capablities of the requested url
+- HEAD    : `Rest.head`    Check is the resource exists
 
 Apart from those, you can always create your own with the `request` method, just supply the `options.type` option. 
 
