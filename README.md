@@ -5,7 +5,7 @@ Javascript REST API to communicate with the backend
 
 Usage
 -----
-`
+```javascript
 // create your new rest object to version v1.0
 var rest = new Rest("http://your.server.com/v1.0/base");
 
@@ -26,7 +26,7 @@ var options = {
 	}
 };
 rest.get('/object/32', options)
-`
+```
 
 Request Types
 ---------------
