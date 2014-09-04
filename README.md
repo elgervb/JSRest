@@ -50,8 +50,8 @@ Request Options
 | Key         | Type          | Default                          | Description                    |
 |-------------|---------------|:--------------------------------:|--------------------------------|
 | url         | string        |                                  | The request url. If you're set the baseurl on the Rest object then the url will be appended |
-| contentType | string        |application/x-www-form-urlencoded | The content type of the request|
-| xhrFields   | object        | {withCredentials: true}          | Any additional xhrFields       |
+| headers     | object        |{}                                | Any additional headers to supply to the backend |
+| xhrFields   | object        | {withCredentials: false}         | Any additional field to extend the XmlHttpRequest with       |
 | debug       | boolean       | false                            | Whether to run in debug mode for additional console logging |
 | type        | string        | GET                              | The request type. Only set this when using the `request` method |
 | success     | function      |                                  | Callback to be executed on success |
