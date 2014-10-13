@@ -3,6 +3,8 @@ JSRest
 
 Javascript REST API to communicate with the backend
 
+Fork me on GitHub https://github.com/elgervb/JSRest
+
 Usage
 -----
 ```javascript
